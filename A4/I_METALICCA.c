@@ -1,6 +1,6 @@
 #include<stdio.h>
  
-#define MOD (1000000000 +7)
+const int MOD = 1000000000 +7;
  
 long long unsigned factorial(long long unsigned n){
     if (n == 1)
@@ -9,6 +9,7 @@ long long unsigned factorial(long long unsigned n){
 }
  
 int main(){
+
     long long unsigned n, ans;
     int x, pos;
     scanf("%lld %d %d", &n, &x, &pos);
